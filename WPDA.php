@@ -1,4 +1,4 @@
-function github_issues_func( $atts ) {
+function WPD( $atts ) {
    return "Hello world!";
 }
-add_shortcode( "github_issues", "github_issues_func" );
+add_shortcode( "WPDA", "WPD" );
